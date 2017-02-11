@@ -1,167 +1,194 @@
-<div class="work__cont-item">  <!-- Загородные дома -->
+<div class="work__cont-item">   <!-- Однокомнатные квартиры -->
 	<div class="portfolio">
 		<div class="portfolio__item">
-			<a href="images/portfolio/house/dubna/1.jpg" class="fancybox" rel="house-dubna">
-				<span class="fake-img" data-src="images/portfolio/house/dubna/0.jpg"></span>
+			<a href="images/portfolio/room/leninskiy/1.jpg" class="fancybox" rel="room-leninskiy">
+				<img src="images/portfolio/room/leninskiy/0.jpg" alt="Ленинский проспект">
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Малая дубна</div>
-						<div class="portfolio-mask__square">Дом - 350 м<sup>2</sup></div>
+						<div class="portfolio-mask__heading">Ленинский проспект</div>
+						<div class="portfolio-mask__square">Квартира - 60 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/house/dubna/2.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/3.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/4.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/5.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/6.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/7.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/8.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/9.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/10.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/11.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/12.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/13.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/14.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/15.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/16.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/17.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/18.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/19.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/20.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/21.jpg" rel="house-dubna" class="fancybox"></a>
-				<a href="images/portfolio/house/dubna/22.jpg" rel="house-dubna" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/2.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/3.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/4.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/5.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/6.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/7.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/8.jpg" rel="room-leninskiy" class="fancybox"></a>
 			</div>
 		</div>
 		<div class="portfolio__item">
-			<a href="images/portfolio/house/bristol/1.jpg" class="fancybox" rel="house-bristol">
-				<span class="fake-img" data-src="images/portfolio/house/bristol/0.jpg"></span>
+			<a href="images/portfolio/room/lyalin/1.jpg" class="fancybox" rel="room-lyalin">
+				<img src="images/portfolio/room/lyalin/0.jpg" alt="Лялин переулок">
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Бристоль</div>
-						<div class="portfolio-mask__square">Дом - 280 м<sup>2</sup></div>
+						<div class="portfolio-mask__heading">Лялин переулок</div>
+						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/house/bristol/2.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/3.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/4.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/5.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/6.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/7.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/8.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/9.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/10.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/11.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/12.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/13.jpg" rel="house-bristol" class="fancybox"></a>
-				<a href="images/portfolio/house/bristol/14.jpg" rel="house-bristol" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/2.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/3.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/4.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/5.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/6.jpg" rel="room-lyalin" class="fancybox"></a>
 			</div>
 		</div>
 		<div class="portfolio__item">
-			<a href="images/portfolio/house/ignatovo/1.jpg" class="fancybox" rel="house-ignatovo">
-				<span class="fake-img" data-src="images/portfolio/house/ignatovo/0.jpg"></span>
+			<a href="images/portfolio/room/garibaldy/1.jpg" class="fancybox" rel="room-garibaldy">
+				<img src="images/portfolio/room/garibaldy/0.jpg" alt="Гарибальди">
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Игнатово</div>
-						<div class="portfolio-mask__square">Дом - 240 м<sup>2</sup></div>
+						<div class="portfolio-mask__heading">Гарибальди</div>
+						<div class="portfolio-mask__square">Квартира - 130 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/house/ignatovo/2.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/3.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/4.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/5.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/6.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/7.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/8.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/9.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/10.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/11.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/12.jpg" rel="house-ignatovo" class="fancybox"></a>
-				<a href="images/portfolio/house/ignatovo/13.jpg" rel="house-ignatovo" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/2.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/3.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/4.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/5.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/6.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/7.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/9.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/10.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/11.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/12.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/13.jpg" rel="room-garibaldy" class="fancybox"></a>
+				<a href="images/portfolio/room/garibaldy/14.jpg" rel="room-garibaldy" class="fancybox"></a>
+			</div>
+		</div>
+				<div class="portfolio__item">
+			<a href="images/portfolio/room/luberci/1.jpg" class="fancybox" rel="room-luberci">
+				<img src="images/portfolio/room/luberci/0.jpg" alt="Люберцы">
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Люберцы</div>
+						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/room/luberci/2.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/3.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/4.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/5.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/6.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/7.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/8.jpg" rel="room-luberci" class="fancybox"></a>
+				<a href="images/portfolio/room/luberci/9.jpg" rel="room-luberci" class="fancybox"></a>
 			</div>
 		</div>
 		<div class="portfolio__item">
-			<a href="images/portfolio/house/konakovo/1.jpg" class="fancybox" rel="house-konakovo">
-				<span class="fake-img" data-src="images/portfolio/house/konakovo/0.jpg"></span>
+			<a href="images/portfolio/room/balashiha/1.jpg" class="fancybox" rel="room-balashiha">
+				<img src="images/portfolio/room/balashiha/0.jpg" alt="Балашиха">
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Конаково</div>
-						<div class="portfolio-mask__square">Дом - 78 м<sup>2</sup></div>
+						<div class="portfolio-mask__heading">Балашиха</div>
+						<div class="portfolio-mask__square">Квартира - 100 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/house/konakovo/2.jpg" rel="house-konakovo" class="fancybox"></a>
-				<a href="images/portfolio/house/konakovo/3.jpg" rel="house-konakovo" class="fancybox"></a>
-				<a href="images/portfolio/house/konakovo/4.jpg" rel="house-konakovo" class="fancybox"></a>
-				<a href="images/portfolio/house/konakovo/5.jpg" rel="house-konakovo" class="fancybox"></a>
-				<a href="images/portfolio/house/konakovo/6.jpg" rel="house-konakovo" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/2.jpg" rel="room-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/3.jpg" rel="room-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/4.jpg" rel="room-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/5.jpg" rel="room-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/6.jpg" rel="room-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/7.jpg" rel="room-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/room/balashiha/8.jpg" rel="room-balashiha" class="fancybox"></a>
 			</div>
 		</div>
 		<div class="portfolio__item">
-			<a href="images/portfolio/house/shishkin/1.jpg" class="fancybox" rel="house-shishkin">
-				<span class="fake-img" data-src="images/portfolio/house/shishkin/0.jpg"></span>
+			<a href="images/portfolio/room/lublinskaya/1.jpg" class="fancybox" rel="room-lublinskaya">
+				<img src="images/portfolio/room/lublinskaya/0.jpg" alt="Люблинская">
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Шишкин лес</div>
-						<div class="portfolio-mask__square">Дом - 240 м<sup>2</sup></div>
+						<div class="portfolio-mask__heading">Люблинская</div>
+						<div class="portfolio-mask__square">Квартира - 70 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/house/shishkin/2.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/3.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/4.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/5.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/6.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/7.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/8.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/9.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/10.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/11.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/12.jpg" rel="house-shishkin" class="fancybox"></a>
-				<a href="images/portfolio/house/shishkin/13.jpg" rel="house-shishkin" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/2.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/3.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/4.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/5.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/6.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/7.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/8.jpg" rel="room-lublinskaya" class="fancybox"></a>
 			</div>
 		</div>
 		<div class="portfolio__item">
-			<a href="images/portfolio/house/nagatino/1.jpg" class="fancybox" rel="house-nagatino">
-				<span class="fake-img" data-src="images/portfolio/house/nagatino/0.jpg"></span>
+			<a href="images/portfolio/room/peredelkino/1.jpg" class="fancybox" rel="room-peredelkino">
+				<img src="images/portfolio/room/peredelkino/0.jpg" alt="Переделкино">
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Нагатинское</div>
-						<div class="portfolio-mask__square">Дом - 282 м<sup>2</sup></div>
+						<div class="portfolio-mask__heading">Переделкино</div>
+						<div class="portfolio-mask__square">Квартира - 65 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/house/nagatino/2.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/3.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/4.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/5.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/6.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/7.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/8.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/9.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/10.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/11.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/12.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/13.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/14.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/15.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/16.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/17.jpg" rel="house-nagatino" class="fancybox"></a>
-				<a href="images/portfolio/house/nagatino/18.jpg" rel="house-nagatino" class="fancybox"></a>
+				<a href="images/portfolio/room/peredelkino/2.jpg" rel="room-peredelkino" class="fancybox"></a>
+				<a href="images/portfolio/room/peredelkino/3.jpg" rel="room-peredelkino" class="fancybox"></a>
+				<a href="images/portfolio/room/peredelkino/4.jpg" rel="room-peredelkino" class="fancybox"></a>
+			</div>
+		</div>
+	<div class="portfolio__item">
+			<a href="images/portfolio/room/sviblovo/1.jpg" class="fancybox" rel="room-sviblovo">
+				<img src="images/portfolio/room/sviblovo/0.jpg" alt="Свиблово">
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Свиблово</div>
+						<div class="portfolio-mask__square">Квартира - 69 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/room/sviblovo/2.jpg" rel="room-sviblovo" class="fancybox"></a>
+				<a href="images/portfolio/room/sviblovo/3.jpg" rel="room-sviblovo" class="fancybox"></a>
+				<a href="images/portfolio/room/sviblovo/4.jpg" rel="room-sviblovo" class="fancybox"></a>
+				<a href="images/portfolio/room/sviblovo/5.jpg" rel="room-sviblovo" class="fancybox"></a>
+				<a href="images/portfolio/room/sviblovo/6.jpg" rel="room-sviblovo" class="fancybox"></a>
+			</div>
+		</div>
+		<div class="portfolio__item">
+			<a href="images/portfolio/room/pyatnickoe/1.jpg" class="fancybox" rel="room-pyatnickoe">
+				<img src="images/portfolio/room/pyatnickoe/0.jpg" alt="Пятницкое шоссе">
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Пятницкое шоссе</div>
+						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/room/pyatnickoe/2.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/3.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/4.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/5.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/6.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/7.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/9.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/10.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/11.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/12.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+				<a href="images/portfolio/room/pyatnickoe/13.jpg" rel="room-pyatnickoe" class="fancybox"></a>
 			</div>
 		</div>
 	</div>

@@ -3,8 +3,25 @@
 @f-1:   "latoregular", Arial, sans-serif;
 @f-2:   "Roboto", Arial, sans-serif;
 
+
 @c-1: #34a462;
-@c-2: #00aeb4;
+@cl-1: #48B876;
+
+@c-2: #6652cb;
+@cl-2: #7561DA;
+
+@color-link: #0277bd;
+
+@color-white: #f7f7f9;
+
+@color-dark: #2d2d38;
+@color-gray: #818080;
+@color-gray-light: #ABABAB;
+@color-gray-lighten: #E0E0E0;
+@color-red: #FD5A3E;
+@color-green: #34a462;
+@color-green-light: #48B876;
+
 
 
 
@@ -20,7 +37,7 @@ body{
 	font-size: 16px;
 	line-height: normal;
 	// height: 100%;
-	color: #2d2d38;
+	color: @color-dark;
 	overflow: hidden;
 
 	* {
@@ -35,8 +52,9 @@ body{
 }
 
 a {
-	color: #0277bd;
+	color: @color-link;
 	text-decoration: underline;
+	
 	&:hover {
 		text-decoration: none;
 	}
@@ -68,12 +86,12 @@ h6 {
 }
 
 .container {
-  min-width: 750px;
+    min-width: 750px;
 }
 
 .heading {
 	font-family: @f-1;
-	color: #2d2d38;
+	color: @color-dark;
 	font-size: 28px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -82,15 +100,143 @@ h6 {
 	margin-bottom: 35px;
 }
 
-.heading-min {
-	font-size: 32px;
-	color: #04858c;
-	text-align: center;
-	margin-bottom: 30px;
+h1.heading {
+	text-align: left;
 }
 
-@media ( max-width: 1199px ) {
+.heading-min {
+	font-family: @f-1;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
 
+.button-more-center {
+	margin-top: 28px;
+	margin-bottom: 8px;
+	text-align: center;
+
+	.button {
+		width: 280px;
+	}
+}
+
+
+.breadcrumbs {
+	padding: 4px 0px;
+	padding-left: 0;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+	font-size: 13px;
+	color: @color-gray;
+	
+	&:after {
+		content: '/';
+		margin: 0 3px;
+		color: @color-dark;
+		display: inline-block;
+	}
+	&:last-child:after {
+		display: none;
+	}
+
+	a {
+		color: @color-dark;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+
+.page-pager {
+	text-align: center;
+
+	li {
+		color: @color-dark;
+		font-size: 14px;
+		display: inline-block;
+		text-align: center;
+		margin: 0 4px;
+
+		&:first-child,
+		&:last-child {
+			position: relative;
+			top: 1px;
+			font-size: 12px;
+		}
+
+		a {
+			.box-shadow;
+			display: block;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			color: @color-dark;
+			text-decoration: none;
+		}
+
+		&:not(.active):hover a {
+			background: @c-2;
+			color: @color-white;
+
+			&:active {
+				background: @cl-2;
+			}
+		}
+		&.active a {
+			background: @c-1;
+			color: @color-white;
+			cursor: default;
+		}
+		&.disabled a {
+			background: @color-gray-lighten;
+			color: @color-dark;
+			cursor: no-drop;
+
+			&:hover {
+				background: @color-gray-lighten;
+				color: @color-dark;
+			}
+		}
+
+		span {
+			display: block;
+		}
+	}
+}
+
+
+
+
+.two-columns {
+	.clearfix;
+	.left-col {
+		width: 264px;
+		float: left;
+	}
+	.right-col {
+		width: 850px;
+		float: right;
+	}
+}
+
+
+@media ( max-width: 1199px ) {
+	.two-columns {
+		.left-col {
+			width: 248px;
+		}
+
+		.right-col {
+			width: 670px;
+		}
+	}
 }
 
 @media ( max-width: 991px ) {
@@ -98,7 +244,20 @@ h6 {
 		font-size: 32px;
 	}
 	.heading-min {
-		font-size: 24px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.two-columns {
+		.right-col,
+		.left-col {
+			width: 100%;
+			float: none;
+		}
+
+		.left-col {
+			margin-bottom: 24px;
+		}
 	}
 }
 
@@ -113,13 +272,35 @@ h6 {
 
 .fancybox-nav {
 	position: fixed;
+	width: 8%;
+
+	&:hover {
+		background: rgba(0, 0, 0, 0.1);
+	}
+
+	span {
+		right: 10px;
+		left: 10px;
+		margin: auto;
+	    visibility: visible;
+	}
 }
 
 .fancybox-title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.7);
-  padding: 10px 16px;
-  font-size: 16px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 10px 16px;
+	font-size: 16px;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.text-shadow {
+	text-shadow: 0 2px 2px rgba(0,0,0,0.14), 0 3px 1px rgba(0,0,0,0.2), 0 1px 5px rgba(0,0,0,0.12);
 }
