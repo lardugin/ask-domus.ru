@@ -8308,6 +8308,34 @@ h1[id] {
   left: 0;
   z-index: 2000;
 }
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.flex-justify-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
 .clearfix:after {
   content: "";
   display: table;
@@ -10636,7 +10664,7 @@ header {
   border-top: 1px solid #E5E5E5;
 }
 #map {
-  height: 580px;
+  height: 500px;
   width: 100%;
 }
 .map-card {
@@ -11730,4 +11758,30 @@ footer .container {
   .sertificates-video-list__item .video {
     height: 195px;
   }
+}
+.contacts-list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.contact-item__heading {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
 }

@@ -13,7 +13,7 @@
 					<div class="bottom__address">
 						<h6 class="bottom-contacts__heading">Время работы:</h6>
 						<div class="bottom-address__text">с 9:00 до 21:00 — понедельник - пятница</div>
-						<div class="bottom-address__text">с 10:00 до 1900 — суббота - воскресенье</div>
+						<div class="bottom-address__text">с 10:00 до 19:00 — суббота - воскресенье</div>
 					</div>
 				</div>
 				<div class="copyright">

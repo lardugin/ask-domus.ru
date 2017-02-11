@@ -158,6 +158,27 @@ $(document).ready(function(){
 		tab('.fag-accordion__item-head','.fag-accordion__item-text');
 	}
 
+	ymaps.ready(init);
+
+	function init(){     
+		var myMap = new ymaps.Map ("map", {
+			center: ['55.801593', '37.643278'],
+			zoom: 15,
+			controls: ['smallMapDefaultSet']
+		});
+
+		myMap.behaviors.disable('scrollZoom');
+
+		var myPlacemark  = new ymaps.Placemark(['55.801593', '37.637278'], {}, {
+		// iconLayout: 'default#image',
+		// iconImageHref: 'images/mapicon.png',
+		// iconImageSize: [197, 115],
+		// iconImageOffset: [-100, -115]
+		});
+
+		myMap.geoObjects.add(myPlacemark );
+	}
+
 	//animation scroll
 	// if($('.scroll').length){
 	// 	$(".scroll").each(function () {
