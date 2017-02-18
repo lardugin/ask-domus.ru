@@ -73,7 +73,7 @@
 
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<!-- <script src="js/docs.min.js"></script> -->
+<script src="js/magnific-popup.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>

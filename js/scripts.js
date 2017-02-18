@@ -8,7 +8,7 @@ $(document).ready(function(){
 		} else {
 			//$('body').css("padding-top", "0");
 			$('#top').removeClass("fixed");
-		} 
+		}
 	});
 
 	// Флиппер.
@@ -119,18 +119,13 @@ $(document).ready(function(){
 			useCSS: false
 		});
 	}
-	
+
 	// Слайдер проектов на главной странице.
 	if ($('#project').length){
 		$('#project').bxSlider({
 			auto: false,
 			pagerCustom: '#bx-pager',
 			autoHover: true,
-			// slideWidth: 480,
-			// minSlides: 2,
-			// maxSlides: 2,
-			// moveSlides: 1,
-			//	adaptiveHeight: true,
 			prevSelector  : ".project_control",
 			nextSelector : ".project_control",
 			useCSS: false
@@ -158,25 +153,13 @@ $(document).ready(function(){
 		tab('.fag-accordion__item-head','.fag-accordion__item-text');
 	}
 
-	ymaps.ready(init);
 
-	function init(){     
-		var myMap = new ymaps.Map ("map", {
-			center: ['55.801593', '37.643278'],
-			zoom: 15,
-			controls: ['smallMapDefaultSet']
+	//http://dimsemenov.com/plugins/magnific-popup
+	if ($('.open-popup-link').length) {
+		$('.open-popup-link').magnificPopup({
+			type:'inline',
+			midClick: true
 		});
-
-		myMap.behaviors.disable('scrollZoom');
-
-		var myPlacemark  = new ymaps.Placemark(['55.801593', '37.637278'], {}, {
-		// iconLayout: 'default#image',
-		// iconImageHref: 'images/mapicon.png',
-		// iconImageSize: [197, 115],
-		// iconImageOffset: [-100, -115]
-		});
-
-		myMap.geoObjects.add(myPlacemark );
 	}
 
 	//animation scroll
@@ -209,6 +192,5 @@ $(document).ready(function(){
 	// 		yaCounter38644345.reachGoal('CLICK_TO_PORTFOLIO')
 	// 	}
 	// });
-	
-});
 
+});

@@ -114,10 +114,10 @@
 			</div>
 
 			<div class="content-form-box">
-				<div class="heading-min">Оставьте свой отзыв, Ваше мнение для нас очень важно.</div>
+				<div class="heading-min">Оставьте свой отзыв, ваше мнение для нас очень важно.</div>
 				<form class="content-form">
 					<div class="form-row">
-						<div class="mui-input-group">      
+						<div class="mui-input-group">
 							<input class="mui-input" type="text" name="name" required>
 							<span class="mui-highlight"></span>
 							<span class="mui-bar"></span>
@@ -126,7 +126,7 @@
 						</div>
 					</div>
 					<div class="form-row">
-						<div class="mui-input-group">      
+						<div class="mui-input-group">
 							<input class="mui-input" type="text" name="email" required>
 							<span class="mui-highlight"></span>
 							<span class="mui-bar"></span>
@@ -135,7 +135,7 @@
 						</div>
 					</div>
 					<div class="form-row">
-						<div class="mui-input-group">      
+						<div class="mui-input-group">
 							<textarea class="mui-input" required></textarea>
 							<span class="mui-highlight"></span>
 							<span class="mui-bar"></span>

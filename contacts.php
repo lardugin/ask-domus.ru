@@ -15,6 +15,138 @@
 </head>
 <body>
 
+<div class="white-popup mfp-hide" id="questions-popup">
+		<div class="popup">
+			<div class="popup__header">
+				<h5 class="popup__title">
+					Спросите то что вас интересует и мы обязательно вам ответим.
+				</h5>
+			</div>
+			<div class="popup__body">
+				<form>
+					<div class="form-row">
+						<div class="mui-input-group">
+							<input class="mui-input" type="text" name="name" required>
+							<span class="mui-highlight"></span>
+							<span class="mui-bar"></span>
+							<label class="mui-label">Ваше имя:</label>
+							<span class="mui-error">Вы ввели неверный формат имени</span>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="mui-input-group">
+							<input class="mui-input" type="text" name="email" required>
+							<span class="mui-highlight"></span>
+							<span class="mui-bar"></span>
+							<label class="mui-label">Ваш email:</label>
+							<span class="mui-error">Вы ввели неверный Email</span>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="mui-input-group">
+							<textarea class="mui-input" required></textarea>
+							<span class="mui-highlight"></span>
+							<span class="mui-bar"></span>
+							<label class="mui-label">Ваш вопрос:</label>
+							<span class="mui-error">Вы не ввели ни одного символа!</span>
+						</div>
+					</div>
+					<div class="form-row_button">
+						<button class="button button_green button_arrow">Отправить</button>
+					</div>
+				</form>
+			</div>
+			<div class="popup__footer">
+				Ваши контактные данные в безопасности и не будут <br> переданы третьим лицам.
+			</div>
+		</div>
+	</div>
+
+<div class="white-popup mfp-hide" id="reviews-popup">
+	<div class="popup">
+		<div class="popup__header">
+			<h5 class="popup__title">
+				Оставьте свой отзыв, или пожелание! Ваше мнение для нас очень важно.
+			</h5>
+		</div>
+		<div class="popup__body">
+			<form>
+				<div class="form-row">
+					<div class="mui-input-group">
+						<input class="mui-input" type="text" name="name" required>
+						<span class="mui-highlight"></span>
+						<span class="mui-bar"></span>
+						<label class="mui-label">Ваше имя:</label>
+						<span class="mui-error">Вы ввели неверный формат имени</span>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="mui-input-group">
+						<input class="mui-input" type="text" name="email" required>
+						<span class="mui-highlight"></span>
+						<span class="mui-bar"></span>
+						<label class="mui-label">Ваш email:</label>
+						<span class="mui-error">Вы ввели неверный Email</span>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="mui-input-group">
+						<textarea class="mui-input" required></textarea>
+						<span class="mui-highlight"></span>
+						<span class="mui-bar"></span>
+						<label class="mui-label">Ваш отзыв:</label>
+						<span class="mui-error">Вы не ввели ни одного символа!</span>
+					</div>
+				</div>
+				<div class="form-row_button">
+					<button class="button button_green button_arrow">Отправить</button>
+				</div>
+			</form>
+		</div>
+		<div class="popup__footer">
+			Ваши контактные данные в безопасности и не будут <br> переданы третьим лицам.
+		</div>
+	</div>
+</div>
+
+<div class="white-popup mfp-hide" id="callback-popup">
+	<div class="popup">
+		<div class="popup__header">
+			<h5 class="popup__title">
+				Напишите свой номер телефона и мы обязательно вам перезвоним в ближайшее время.
+			</h5>
+		</div>
+		<div class="popup__body">
+			<form>
+				<div class="form-row">
+					<div class="mui-input-group">
+						<input class="mui-input" type="text" name="name" required>
+						<span class="mui-highlight"></span>
+						<span class="mui-bar"></span>
+						<label class="mui-label">Ваше имя:</label>
+						<span class="mui-error">Вы ввели неверный формат имени</span>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="mui-input-group">
+						<input class="mui-input" type="text" name="phone" required>
+						<span class="mui-highlight"></span>
+						<span class="mui-bar"></span>
+						<label class="mui-label">Ваш Телефон:</label>
+						<span class="mui-error">Вы ввели неверный формат номера телефона</span>
+					</div>
+				</div>
+				<div class="form-row_button">
+					<button class="button button_green button_arrow">Отправить</button>
+				</div>
+			</form>
+		</div>
+		<div class="popup__footer">
+			Ваши контактные данные в безопасности и не будут <br> переданы третьим лицам.
+		</div>
+	</div>
+</div>
+
 <?php include "./header.php"; ?>
 
 <div class="content-box">
@@ -60,13 +192,13 @@
 			<h3 class="heading-min center">Формы обратной связи</h3>
 			<div class="contacts-list">
 				<div class="contacts-list__item">
-					<div class="contact-item__text"><a href="javascript:;">Задать нам вопрос</a></div>
+					<div class="contact-item__text"><a href="#questions-popup" class="open-popup-link">Задать нам вопрос</a></div>
 				</div>
 				<div class="contacts-list__item">
-					<div class="contact-item__text"><a href="javascript:;">Оставить отзыв</a></div>
+					<div class="contact-item__text"><a href="#reviews-popup" class="open-popup-link">Оставить отзыв</a></div>
 				</div>
 				<div class="contacts-list__item">
-					<div class="contact-item__text"><a href="javascript:;">Заказать обратный звонок</a></div>
+					<div class="contact-item__text"><a href="#callback-popup" class="open-popup-link">Заказать обратный звонок</a></div>
 				</div>
 			</div>
 
@@ -75,99 +207,88 @@
 			<h3 class="heading-min center">Наши реквизиты</h3>
 			<table class="table table-bordered box-shadow">
 				<tbody>
-				<tr>
-					<td colspan="2" align="center" valign="middle">Наименование организации</td>
-					<td style="text-align: center;">ООО «АСК Домус»</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" valign="middle"> Фактический адрес</td>
-					<td align="center" valign="middle">107051&nbsp;&nbsp; г. Москва, ул.Проспект мира дом. 102 стр.12 офис 0.3</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" valign="middle">
-						 Телефон по фактическому адресу (с кодом города)</td>
-					<td align="center" valign="middle">8 /495/ 220-38-44, 625-40-85</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" style="width: 734px;" valign="middle">
-						 Основной Государственный Регистрационный номер (ОГРН)*</td>
-					<td align="center" valign="middle">1117746274634</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" style="width: 734px;" valign="middle">
-						 &nbsp;Идентификационный номер (ИНН)/код причины постановки (КПП)&nbsp;</td>
-					<td align="center" valign="middle">7701914260/770101001</td>
-				</tr>
-				<tr>
-					<td colspan="3" align="center" valign="middle">Платежные реквизиты</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" valign="middle">Расчетный счет</td>
-					<td align="center" valign="middle">40702810200060016589</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" valign="middle"> Полное наименование банка</td>
-					<td align="center" valign="middle">ОАО АКБ "АВАНГАРД" г. Москва</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" valign="middle">Корреспондентский счет</td>
-					<td align="center" valign="middle">30101810000000000201</td>
-				</tr>
-				<tr>
-					<td colspan="2" align="center" valign="middle">БИК</td>
-					<td align="center" valign="middle">044525201</td>
-				</tr>
+					<tr>
+						<td>Наименование организации</td>
+						<td>ООО «АСК Домус»</td>
+					</tr>
+					<tr>
+						<td> Фактический адрес</td>
+						<td>107051  г. Москва, ул.Проспект мира дом. 102 стр.12 офис 0.3</td>
+					</tr>
+					<tr>
+						<td>Телефон по фактическому адресу (с кодом города)</td>
+						<td>8 /495/ 220-38-44, 625-40-85</td>
+					</tr>
+					<tr>
+						<td>Основной Государственный Регистрационный номер (ОГРН)*</td>
+						<td>1117746274634</td>
+					</tr>
+					<tr>
+						<td>Идентификационный номер (ИНН)/код причины постановки (КПП)</td>
+						<td>7701914260/770101001</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="center"><strong>Платежные реквизиты</strong></td>
+					</tr>
+					<tr>
+						<td>Расчетный счет</td>
+						<td>40702810200060016589</td>
+					</tr>
+					<tr>
+						<td> Полное наименование банка</td>
+						<td>ОАО АКБ "АВАНГАРД" г. Москва</td>
+					</tr>
+					<tr>
+						<td>Корреспондентский счет</td>
+						<td>30101810000000000201</td>
+					</tr>
+					<tr>
+						<td>БИК</td>
+						<td>044525201</td>
+					</tr>
 				</tbody>
 			</table>
 
 			<br>
 
 			<h3 class="heading-min center">Удобство расположения студии</h3>
-			<img src="images/contacts.png">
-
-			<div id="map"></div>
-
-<!-- 			<div class="content-form-box">
-				<div class="heading-min">Оставьте свой отзыв, Ваше мнение для нас очень важно.</div>
-				<form class="content-form">
-					<div class="form-row">
-						<div class="mui-input-group">      
-							<input class="mui-input" type="text" name="name" required>
-							<span class="mui-highlight"></span>
-							<span class="mui-bar"></span>
-							<label class="mui-label">Ваше имя:</label>
-							<span class="mui-error">Вы ввели неверный формат имени</span>
+			<div class="contacts-list">
+				<div class="contacts-list__item">
+					<div class="contact-icon">
+						<img src="images/contacts-icon-ballun.png" alt="">
+						<div class="contact-icon__text">
+							<h6>Проспект Мира 102</h6>
+							<p>(Бизнес центр "Парк мира")</p>
 						</div>
 					</div>
-					<div class="form-row">
-						<div class="mui-input-group">      
-							<input class="mui-input" type="text" name="email" required>
-							<span class="mui-highlight"></span>
-							<span class="mui-bar"></span>
-							<label class="mui-label">Ваш email:</label>
-							<span class="mui-error">Вы ввели неверный Email</span>
+				</div>
+				<div class="contacts-list__item">
+					<div class="contact-icon">
+						<img src="images/contacts-icon-metro.png" alt="">
+						<div class="contact-icon__text">
+							<h6>Метро Алексеевская</h6>
+							<p>(5 минут пешком от метро)</p>
 						</div>
 					</div>
-					<div class="form-row">
-						<div class="mui-input-group">      
-							<textarea class="mui-input" required></textarea>
-							<span class="mui-highlight"></span>
-							<span class="mui-bar"></span>
-							<label class="mui-label">Ваш отзыв:</label>
-							<span class="mui-error">Вы не ввели ни одного символа!</span>
+				</div>
+				<div class="contacts-list__item">
+					<div class="contact-icon">
+						<img src="images/contacts-icon-car.png" alt="">
+						<div class="contact-icon__text">
+							<h6>Платная парковка</h6>
+							<p>(40 рублей в час)</p>
 						</div>
 					</div>
-					<div class="form-row_button">
-						<button class="button button_green button_arrow">Отправить</button>
-					</div>
-				</form>
-			</div> -->
+				</div>
+			</div>
 
+			<div id="map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=kozKoP5ElQ4lOaiQcmSsPZxKyyuKq5fg&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+			</div>
 		</div>
 	</section>
 </div>
 
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <?php include "./footer.php"; ?>
 
 </body>
