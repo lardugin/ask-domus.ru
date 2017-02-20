@@ -67,7 +67,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="javascript:;">Услуги и цены</a>
+											<a href="javascript:;">Услуги</a>
 											<ul class="submenu">
 												<li><a href="javascript:;">Дизайн интерера</a></li>
 												<li><a href="javascript:;">Ремонт и отделка</a></li>
@@ -77,6 +77,7 @@
 												<li><a href="javascript:;">Проектирование</a></li>
 											</ul>
 										</li>
+										<li><a href="javascript:;">Цены</a></li>
 										<li>
 											<a href="javascript:;">Портфолио</a>
 											<ul class="submenu">
@@ -116,7 +117,7 @@
 			<div class="info__heading_min">От идеи до реализации</div>
 			<div class="info__form">
 				<form>
-					<div class="mui-input-group">      
+					<div class="mui-input-group">
 						<input class="mui-input" type="text" name="phone" required>
 						<span class="mui-highlight"></span>
 						<span class="mui-bar"></span>
@@ -129,7 +130,6 @@
 		</section>
 	</div>
 </div>
-
 
 <div class="servise-box">
 	<section class="container">
@@ -393,12 +393,12 @@
 						</div>
 						<div class="project__task">
 							<span class="title">Задачи:</span>
-							Основная задача проекта - создание просторной гостевой зоны, так как молодые хозяева квартиры ведут активный образ жизни и часто принимают у себя гостей. 
+							Основная задача проекта - создание просторной гостевой зоны, так как молодые хозяева квартиры ведут активный образ жизни и часто принимают у себя гостей.
 							Вторая задача была связанна с отсутствием балконов в квартире: возникла необходимость создания отдельного помещения для сушки одежды и хранения вещей.
 						</div>
 						<div class="project__description">
 							<span class="title">Описание:</span>
-							Современные тенденции воздушности в сочетании с традиционной солидностью подчеркнуты при помощи контраста светлых сливочных оттенков и темных коричневых тонов, что создает ощущение покоя и уюта. 
+							Современные тенденции воздушности в сочетании с традиционной солидностью подчеркнуты при помощи контраста светлых сливочных оттенков и темных коричневых тонов, что создает ощущение покоя и уюта.
 							Пространство спальни, несмотря на ее небольшие размеры, решено очень функционально. Оно оформлено в спокойных пастельных тонах, располагающих к отдыху. Детали из текстиля и художественная композиция в изголовье кровати придают ему законченный вид.
 							<br>
 							Активная жизненная позиция будущих жильцов этой квартиры, их молодость и жизнелюбие нашли выражение в оформлении ванной комнаты и гостевого санузла.
@@ -469,7 +469,7 @@
 						<div class="center project-pdf">
 							<a href="doc/Lyubercy.pdf" target="_blank" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('VIEW_PDF')">Скачать дизайн проект</a>
 						</div>
-					</div>		
+					</div>
 				</div>
 			</div>
 		</div>
@@ -502,7 +502,7 @@
 					<div class="form-box__body">
 						<form class="form ajaxform" method="post">
 							<div class="form-row">
-								<div class="mui-input-group">      
+								<div class="mui-input-group">
 									<input class="mui-input" type="text" name="name" required>
 									<span class="mui-highlight"></span>
 									<span class="mui-bar"></span>
@@ -511,7 +511,7 @@
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="mui-input-group">      
+								<div class="mui-input-group">
 									<input class="mui-input" type="text" name="email" required>
 									<span class="mui-highlight"></span>
 									<span class="mui-bar"></span>
@@ -520,7 +520,7 @@
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="mui-input-group">      
+								<div class="mui-input-group">
 									<input class="mui-input" type="text" name="phone" required>
 									<span class="mui-highlight"></span>
 									<span class="mui-bar"></span>
@@ -642,7 +642,7 @@
 				<div class="ps__item ps__item_callback">Или закажите обратный звонок</div>
 				<div class="info__form info__form_bottom">
 					<form>
-						<div class="mui-input-group">      
+						<div class="mui-input-group">
 							<input class="mui-input" type="text" name="phone" required>
 							<span class="mui-highlight"></span>
 							<span class="mui-bar"></span>

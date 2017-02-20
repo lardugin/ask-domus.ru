@@ -50,7 +50,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="javascript:;">Услуги и цены</a>
+											<a href="javascript:;">Услуги</a>
 											<ul class="submenu">
 												<li><a href="javascript:;">Дизайн интерера</a></li>
 												<li><a href="javascript:;">Ремонт и отделка</a></li>
@@ -60,6 +60,7 @@
 												<li><a href="javascript:;">Проектирование</a></li>
 											</ul>
 										</li>
+										<li><a href="javascript:;">Цены</a></li>
 										<li>
 											<a href="javascript:;">Портфолио</a>
 											<ul class="submenu">
