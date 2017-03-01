@@ -8799,7 +8799,7 @@ h1.heading {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .button-more-center {
   margin-top: 28px;
@@ -9124,7 +9124,7 @@ h1.heading {
   top: 3px;
 }
 .button_green {
-  color: #ffffff;
+  color: #f7f7f9;
   background: #34a462;
   box-shadow: 0px 12px 22px rgba(0,0,0,0.35);
 }
@@ -11751,6 +11751,30 @@ footer .container {
   right: 30px;
   opacity: 0;
 }
+.steps__item {
+  margin-bottom: 12px;
+}
+.steps__number {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+  line-height: 60px;
+  border-radius: 50px;
+  background: #6652cb;
+  color: #f7f7f9;
+  text-align: center;
+  font-size: 24px;
+}
+.services-page__portfolio {
+  margin-bottom: 36px;
+}
+.services-page__steps {
+  margin-bottom: 36px;
+}
 @media (max-width: 1199px) {
   .servise-mask__heading {
     height: 52px;
@@ -11775,6 +11799,39 @@ footer .container {
   .servise-mask .number {
     display: none;
   }
+}
+.price-table_inner {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  font-size: 15px;
+}
+.price-table_inner tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+.price-table_inner th,
+.price-table_inner td {
+  text-align: center;
+  border-right: 1px solid #ddd;
+  vertical-align: middle !important;
+}
+.price-table_inner th:first-child,
+.price-table_inner td:first-child {
+  border-left: 1px solid #ddd;
+  text-align: left;
+}
+.price-table_inner .price-card__price {
+  margin-bottom: 0;
+  font-size: 19px;
+}
+.price-table_inner .price-card__price sup {
+  font-size: 12px;
+}
+.price-table_inner .price-card__price_old {
+  font-size: 17px;
+}
+.repairs-page .price-table__heading {
+  font-size: 16px;
 }
 .price-page .price__action-text {
   margin-bottom: 36px;
