@@ -5,7 +5,7 @@
 }
 
 .servise-box {
-	background: #fff;
+	background: @color-white;
 
 	.container {
 		padding-top: 50px;
@@ -74,8 +74,8 @@
 		.transition (.2s linear);
 	}
 
-
 	.number {
+        .transform(translateY(-50%));
 		color: @color-white;
 		font-size: 80px;
 		font-family: @f-2;
@@ -85,7 +85,6 @@
 		position: absolute;
     	top: 50%;
 		left: 0;
-		.transform(translateY(-50%));
 	}
 
 	.mask__inner {

@@ -99,10 +99,10 @@
 .input::-webkit-input-placeholder{
     color: #7b7b7b;
 }
-.input:-moz-placeholder { 
+.input:-moz-placeholder {
     color: #7b7b7b;
 }
-.input::-moz-placeholder { 
+.input::-moz-placeholder {
     color: #7b7b7b;
 }
 .input:-ms-input-placeholder {
@@ -111,10 +111,10 @@
 .input:focus::-webkit-input-placeholder{
     text-indent: -9999px;
 }
-.input:focus:-moz-placeholder { 
+.input:focus:-moz-placeholder {
     text-indent: -9999px;
 }
-.input:focus::-moz-placeholder { 
+.input:focus::-moz-placeholder {
     text-indent: -9999px;
 }
 .input:focus:-ms-input-placeholder {
@@ -131,8 +131,8 @@
     border-radius: 30px;
     display: inline-block;
     width: 100%;
-    height: 50px;
-    line-height: 50px;
+    height: 48px;
+    line-height: 48px;
     font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
@@ -273,7 +273,7 @@
 
 /* Material UI TEXT FIELD ------------------------------- */
 .mui-input-group {
-    position: relative; 
+    position: relative;
     width: 100%;
     display: inline-block;
 
@@ -297,7 +297,7 @@
 
     /* LABEL ======================================= */
     .mui-label {
-        .transition(0.2s ease all); 
+        .transition(0.2s ease all);
         position: absolute;
         pointer-events: none;
         left: 12px;
@@ -316,27 +316,27 @@
     }
 
     /* BOTTOM BARS ================================= */
-    .mui-bar { 
+    .mui-bar {
         position: relative;
         display: block;
         //width: 300px;
 
-        &::before, 
+        &::before,
         &::after {
             content: '';
-            height: 2px; 
+            height: 2px;
             width: 0;
-            bottom: 0px; 
+            bottom: 0px;
             position: absolute;
-            background: @mui-green; 
-            .transition(0.2s ease all); 
+            background: @mui-green;
+            .transition(0.2s ease all);
         }
 
         &::before {
             left: 50%;
-        } 
+        }
         &::after {
-            right: 50%; 
+            right: 50%;
         }
     }
 
@@ -359,9 +359,9 @@
     /* HIGHLIGHTER ================================== */
     .mui-highlight {
         position: absolute;
-        height: 60%; 
-        width: 100px; 
-        top: 25%; 
+        height: 60%;
+        width: 100px;
+        top: 25%;
         left: 0;
         pointer-events: none;
         opacity: 0.5;
@@ -385,11 +385,11 @@
         color: @mui-red;
     }
 
-    .mui-bar { 
-        &::before, 
+    .mui-bar {
+        &::before,
         &::after {
             position: absolute;
-            background: @mui-red; 
+            background: @mui-red;
         }
     }
 }
