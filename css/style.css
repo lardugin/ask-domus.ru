@@ -8462,6 +8462,13 @@ td {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'als_rublregular';
+  src: url('../fonts/rub/rouble_0-webfont.eot');
+  src: url('../fonts/rub/rouble_0-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/rub/rouble_0-webfont.woff') format('woff'), url('../fonts/rub/rouble_0-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -8746,6 +8753,11 @@ td {
   -o-transform: rotateY(-180deg);
   -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
+}
+.rub {
+  font-family: 'als_rublregular', sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
 html {
   height: 100%;
@@ -11064,6 +11076,9 @@ footer .container {
     padding: 10px 0px;
   }
 }
+.portfolio-page .page-pager {
+  margin-bottom: 36px;
+}
 .work__tab-list {
   margin-bottom: 8px;
   text-align: center;
@@ -11226,6 +11241,136 @@ footer .container {
 }
 .grid-item--width2 {
   width: 400px;
+}
+.object-slider {
+  position: relative;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.object-slider .bx-pager {
+  bottom: -60px;
+}
+.object-slider .bx-pager .bx-pager-item {
+  display: inline-block;
+  margin: 0 4px;
+}
+.object-slider .bx-pager .bx-pager-item a {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  width: 40px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  background: #34a462;
+  border-radius: 50%;
+  text-align: center;
+  color: #f7f7f9;
+  text-decoration: none;
+}
+.object-slider .bx-pager .bx-pager-item a:hover,
+.object-slider .bx-pager .bx-pager-item a.active {
+  background: #6652cb;
+}
+.object-slider .bx-pager .bx-pager-item a:active,
+.object-slider .bx-pager .bx-pager-item a:active:hover {
+  background: #7561DA;
+}
+#object-slider img {
+  max-width: 100%;
+  max-height: 800px;
+  display: inline-block;
+}
+.object-slider_control .bx-prev,
+.object-slider_control .bx-next {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  margin-top: -35px;
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 70px;
+  top: 50%;
+  text-indent: -9999px;
+  background-color: #424344;
+  background-repeat: no-repeat;
+  background-position: 0px 11px;
+  opacity: 0.85;
+}
+.object-slider_control .bx-prev:hover,
+.object-slider_control .bx-next:hover {
+  opacity: 1;
+}
+.object-slider_control .bx-prev {
+  background-image: url(../images/left.png);
+  left: -120px;
+}
+.object-slider_control .bx-next {
+  background-image: url(../images/right.png);
+  right: -120px;
+}
+.portfolio-inner-description {
+  margin-bottom: 16px;
+}
+.portfolio-inner-description__param {
+  font-size: 17px;
+}
+.other-objects {
+  margin-top: 24px;
+}
+.other-objects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.other-objects .prev-object,
+.other-objects .next-object {
+  text-decoration: none;
+}
+.other-objects .prev-object:hover,
+.other-objects .next-object:hover {
+  color: #34a462;
+}
+.other-objects .prev-object {
+  float: left;
+}
+.other-objects .next-object {
+  float: right;
+}
+.objects-page__portfolio {
+  margin-top: 80px;
+}
+@media (max-width: 1400px) {
+  .object-slider_control .bx-prev {
+    left: -50px;
+  }
+  .object-slider_control .bx-next {
+    right: -50px;
+  }
+}
+@media (max-width: 1260px) {
+  .object-slider_control .bx-prev {
+    left: 0px;
+  }
+  .object-slider_control .bx-next {
+    right: 0px;
+  }
+}
+@media (max-width: 1199px) {
+  #object-slider img {
+    max-height: 600px;
+  }
+}
+@media (max-width: 991px) {
+  .objects-page__portfolio .portfolio__item:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 991px) and (max-width: 1199px) {
+  #object-slider img {
+    max-height: 500px;
+  }
 }
 .news__list {
   margin-bottom: 36px;
@@ -11797,6 +11942,9 @@ footer .container {
     opacity: 1;
   }
   .servise-mask .number {
+    display: none;
+  }
+  .services-page__portfolio .portfolio__item:nth-child(3) {
     display: none;
   }
 }

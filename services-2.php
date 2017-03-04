@@ -252,26 +252,26 @@
 							<td>
 								<!-- Вывести но закоментить -->
 								<!-- <div class="price-card__price price-card__price_old">
-									1 400<span>₽</span> м<sup>2</sup>
+									1 400<i class="rub">&#118;</i> м<sup>2</sup>
 								</div> -->
 								<div class="price-card__price">
-									4 000<span>₽</span> м<sup>2</sup>
+									4 000<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 							</td>
 							<td>
 								<!-- <div class="price-card__price price-card__price_old">
-									1 800<span>₽</span> м<sup>2</sup>
+									1 800<i class="rub">&#118;</i> м<sup>2</sup>
 								</div> -->
 								<div class="price-card__price">
-									8 000<span>₽</span> м<sup>2</sup>
+									8 000<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 							</td>
 							<td>
 								<!-- <div class="price-card__price price-card__price_old">
-									2 000<span>₽</span> м<sup>2</sup>
+									2 000<i class="rub">&#118;</i> м<sup>2</sup>
 								</div> -->
 								<div class="price-card__price">
-									10 000<span>₽</span> м<sup>2</sup>
+									10 000<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 							</td>
 						</tr>

@@ -27,9 +27,9 @@
 				<span itemprop="title">Портфолио</span>
 			</div>
 		</div>
-		
+
 		<h1 class="heading">Портфолио</h1>
-		
+
 		<div class="inner-page">
 			<div class="portfolio-page">
 				<div class="work" id="work">
@@ -49,6 +49,18 @@
 						<?php include "work/house.php"; ?> <!-- Загородные дома -->
 					</div>
 				</div>
+				
+				<!-- Если нет других страниц, то нет и пагинации. -->
+				<ul class="page-pager">
+					<li><a href="javascript:;" class="glyphicon glyphicon-chevron-left"></a></li>
+					<li class="active"><a href="javascript:;">1</a></li>   <!-- active -->
+					<li><a href="javascript:;">2</a></li>
+					<li><a href="javascript:;">3</a></li>
+					<li><a href="javascript:;">4</a></li>
+					<li><span>...</span></li>
+					<li><a href="javascript:;">88</a></li>
+					<li class="disabled"><a href="javascript:;" class="glyphicon glyphicon-chevron-right"></a></li>   <!-- disabled -->
+				</ul>
 			</div>
 
 			<div class="content">

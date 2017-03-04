@@ -1,3 +1,4 @@
+<!-- // TODO В портфолио по дефолту 12 объектов, а на главной 9 -->
 <div class="work__cont-item active">   <!-- Однокомнатные квартиры -->
 	<div class="portfolio">
 		<div class="portfolio__item">
@@ -189,6 +190,67 @@
 				<a href="images/portfolio/room/pyatnickoe/11.jpg" rel="room-pyatnickoe" class="fancybox"></a>
 				<a href="images/portfolio/room/pyatnickoe/12.jpg" rel="room-pyatnickoe" class="fancybox"></a>
 				<a href="images/portfolio/room/pyatnickoe/13.jpg" rel="room-pyatnickoe" class="fancybox"></a>
+			</div>
+		</div>
+		<div class="portfolio__item">
+			<a href="images/portfolio/room/lublinskaya/1.jpg" class="fancybox" rel="room-lublinskaya">
+				<img src="images/portfolio/room/lublinskaya/0.jpg" alt="Люблинская">
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Люблинская</div>
+						<div class="portfolio-mask__square">Квартира - 70 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/room/lublinskaya/2.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/3.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/4.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/5.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/6.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/7.jpg" rel="room-lublinskaya" class="fancybox"></a>
+				<a href="images/portfolio/room/lublinskaya/8.jpg" rel="room-lublinskaya" class="fancybox"></a>
+			</div>
+		</div>
+		<div class="portfolio__item">
+			<a href="images/portfolio/room/leninskiy/1.jpg" class="fancybox" rel="room-leninskiy">
+				<img src="images/portfolio/room/leninskiy/0.jpg" alt="Ленинский проспект">
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Ленинский проспект</div>
+						<div class="portfolio-mask__square">Квартира - 60 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/room/leninskiy/2.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/3.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/4.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/5.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/6.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/7.jpg" rel="room-leninskiy" class="fancybox"></a>
+				<a href="images/portfolio/room/leninskiy/8.jpg" rel="room-leninskiy" class="fancybox"></a>
+			</div>
+		</div>
+		<div class="portfolio__item">
+			<a href="images/portfolio/room/lyalin/1.jpg" class="fancybox" rel="room-lyalin">
+				<img src="images/portfolio/room/lyalin/0.jpg" alt="Лялин переулок">
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Лялин переулок</div>
+						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/room/lyalin/2.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/3.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/4.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/5.jpg" rel="room-lyalin" class="fancybox"></a>
+				<a href="images/portfolio/room/lyalin/6.jpg" rel="room-lyalin" class="fancybox"></a>
 			</div>
 		</div>
 	</div>

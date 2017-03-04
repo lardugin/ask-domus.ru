@@ -252,10 +252,10 @@
 									<img src="images/price/icon-1.png" alt="Эскизный">
 								</div>
 								<div class="price-card__price price-card__price_old">
-									1200<span>₽</span> м<sup>2</sup>
+									1200<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 								<div class="price-card__price">
-									900<span>₽</span> м<sup>2</sup>
+									900<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 								<div class="price-card__button">
 									<a href="javascript:;" class="button button_green button_arrow button_scaleout" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
@@ -265,7 +265,7 @@
 						<div class="price-card_back flipper__area_back flipper__area">
 							<div class="price-card__headline">
 								<span>Эскизный</span>
-								<div class="price-card__price_min">900<span>₽</span> м<sup>2</sup></div>
+								<div class="price-card__price_min">900<i class="rub">&#118;</i> м<sup>2</sup></div>
 								<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 							</div>
 							<div class="price-card__text">
@@ -297,10 +297,10 @@
 									<img src="images/price/icon-2.png" alt="Рабочий">
 								</div>
 								<div class="price-card__price price-card__price_old">
-									1700<span>₽</span> м<sup>2</sup>
+									1700<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 								<div class="price-card__price">
-									1 300<span>₽</span> м<sup>2</sup>
+									1 300<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 								<div class="price-card__button">
 									<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIDDLE')">Подробнее</a>
@@ -310,7 +310,7 @@
 						<div class="price-card_back flipper__area_back flipper__area">
 							<div class="price-card__headline">
 								<span>Рабочий</span>
-								<div class="price-card__price_min">1 300<span>₽</span> м<sup>2</sup></div>
+								<div class="price-card__price_min">1 300<i class="rub">&#118;</i> м<sup>2</sup></div>
 								<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 							</div>
 							<div class="price-card__text">
@@ -339,10 +339,10 @@
 									<img src="images/price/icon-3.png" alt="Полный">
 								</div>
 								<div class="price-card__price price-card__price_old">
-									2000<span>₽</span> м<sup>2</sup>
+									2000<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 								<div class="price-card__price">
-									1 500<span>₽</span> м<sup>2</sup>
+									1 500<i class="rub">&#118;</i> м<sup>2</sup>
 								</div>
 								<div class="price-card__button">
 									<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MAX')">Подробнее</a>
@@ -352,7 +352,7 @@
 						<div class="price-card_back flipper__area_back flipper__area">
 							<div class="price-card__headline">
 								<span>Полный</span>
-								<div class="price-card__price_min">1 500<span>₽</span> м<sup>2</sup></div>
+								<div class="price-card__price_min">1 500<i class="rub">&#118;</i> м<sup>2</sup></div>
 								<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 							</div>
 							<div class="price-card__text">

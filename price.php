@@ -253,26 +253,26 @@
 				<tr>
 					<td>
 						<div class="price-card__price price-card__price_old">
-							1 400<span>₽</span> м<sup>2</sup>
+							1 400<i class="rub">&#118;</i> м<sup>2</sup>
 						</div>
 						<div class="price-card__price">
-							1 200<span>₽</span> м<sup>2</sup>
+							1 200<i class="rub">&#118;</i> м<sup>2</sup>
 						</div>
 					</td>
 					<td>
 						<div class="price-card__price price-card__price_old">
-							1 800<span>₽</span> м<sup>2</sup>
+							1 800<i class="rub">&#118;</i> м<sup>2</sup>
 						</div>
 						<div class="price-card__price">
-							1 600<span>₽</span> м<sup>2</sup>
+							1 600<i class="rub">&#118;</i> м<sup>2</sup>
 						</div>
 					</td>
 					<td>
 						<div class="price-card__price price-card__price_old">
-							2 000<span>₽</span> м<sup>2</sup>
+							2 000<i class="rub">&#118;</i> м<sup>2</sup>
 						</div>
 						<div class="price-card__price">
-							1 800<span>₽</span> м<sup>2</sup>
+							1 800<i class="rub">&#118;</i> м<sup>2</sup>
 						</div>
 					</td>
 				</tr>
